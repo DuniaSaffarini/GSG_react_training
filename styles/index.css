@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 48px;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -15,7 +16,6 @@
 
 .text-uppercase {
     text-transform: uppercase;
-
 }
 
 .bottons-box {
@@ -30,7 +30,6 @@
 
 .margin-right-icon {
     margin-right: 30px;
-    
 }
 
 .button-color {
@@ -53,11 +52,6 @@ button {
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    
-}
-
-.phone {
-    margin-right: 105px;
 }
 
 .phone-dim {
@@ -66,7 +60,9 @@ button {
 
 .logo {
     margin-top: 17px;
+    margin-left: 105px;
 }
+
 .dot {
     cursor: pointer;
     height: 10px;
@@ -76,18 +72,17 @@ button {
     display: inline-block;
     transition: background-color 0.6s ease;
     margin-top: 15px;
-    border-color:  #68b51f;
+    border-color: #68b51f;
     border-style: solid;
+}
 
-  }
-  .dot:first-child {
-      background-color:  #68b51f;
-  }
-  
+.dot:first-child {
+    background-color: #68b51f;
+}
+
 .logo-dim {
     width: 200px;
     margin-top: 21px;
-
 }
 
 html, body {
